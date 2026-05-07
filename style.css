@@ -51,6 +51,7 @@ body {
   align-items: center;
   justify-content: center;
   color: hsl(241, 100%, 89%);
+  font-size: 12px;
 }
 .score {
   display: flex;
@@ -94,6 +95,7 @@ body {
 .right h2 {
   margin: 0;
   color: hsl(224, 30%, 27%);
+  font-size: 17px;
 }
 .right p {
   margin: 0;
