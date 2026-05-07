@@ -32,15 +32,15 @@ body {
 .left {
   padding: 30px;
 }
-.left h2 {
+.result-title h1 {
   margin: 0;
+  font-size: 17px;
 }
 .result-title {
   display: flex;
   align-items: center;
   justify-content: center;
   color: hsl(241, 100%, 89%);
-  font-size: 12px;
 }
 .score {
   display: flex;
@@ -82,7 +82,7 @@ body {
   color: hsl(241, 100%, 89%);
   font-size: 14px;
 }
-.right h2 {
+.right h1 {
   margin: 0;
   color: hsl(224, 30%, 27%);
   font-size: 17px;
@@ -170,7 +170,7 @@ button:hover {
 }
 button:focus {
   background-color: hsla(241, 81%, 54%, 0.863);
-  outline: none;
+  outline: 2px solid black;
 }
 span {
   font-weight: 800;
